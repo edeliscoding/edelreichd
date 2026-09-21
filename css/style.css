@@ -477,8 +477,12 @@ p {
   gap: var(--space-md);
 }
 
-.project-grid-featured {
+/* .project-grid-featured {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+} */
+
+.project-grid-featured {
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .project-grid-compact {
